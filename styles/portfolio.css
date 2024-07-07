@@ -53,6 +53,10 @@ nav ul{
     font-size: 20px;
 }
 
+.dark-3{
+    color: #757575;
+}
+
 /* Shard butoon desing */
 .btn-primary{
     background-color: #FD6E0A;
@@ -63,11 +67,21 @@ nav ul{
     border-radius: 5px;
     border: none;
 }
+/* shared bg color */
+.bg-color{
+    background-color: #FFF8F3;
+}
 /* using flex in banner class */
 .banner{
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+/* section tile */
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
 }
 
 .banner-content{
@@ -87,3 +101,60 @@ nav ul{
 .banner-img{
     margin: left 35px; ;
 }
+
+/* main styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.about{
+    border-radius: 10px;
+    /* margin: 130px 230px; */
+    text-align: center;
+    padding: 130px 156px ;
+    margin-top: 130px;
+
+}
+.section-paragraph{
+    margin: 30px 22.5px;
+    font-size: 18px;
+    font-weight: 400px;
+}
+
+.item-des{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.item-name{
+    font-weight: 400px;
+    font-size: 20px;
+    color: #757575;
+}
+
+/* use display: flex to arrange about items */
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+.text-center{
+    text-align: center;
+}
+
+/* add display flex on "skills-container */
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.skill-names{
+    border-radius: 5px;
+    padding: 30px ;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06) ;
+}
+
