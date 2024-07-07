@@ -1,0 +1,89 @@
+
+/* font style for Open Sans from google font */
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+/* add background image in header */
+.header{
+    background-image: url(../assets/images/developer.png),url(../assets/images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left,bottom right;
+}
+
+
+/* nav styles   */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 230px;
+}
+
+.nav-title{
+    font-weight: 800px;
+    font-size: 45px;
+}
+
+/* remove list style */
+nav ul li{
+    list-style: none;
+    margin-right: 50px;
+}
+
+/* remove anchor underline: using child selector */
+nav > ul> li > a{
+    text-decoration: none;
+}
+
+/* portfolio, blog & button are align in same line */
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+/* change color portfolio, blog */
+.dark-2{
+    color: #474747;
+    font-size: 20px;
+}
+
+/* Shard butoon desing */
+.btn-primary{
+    background-color: #FD6E0A;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 18px 35px 19px 36px;
+    border-radius: 5px;
+    border: none;
+}
+/* using flex in banner class */
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner-content{
+    margin-left: 230px;
+    max-width: 580px;
+}
+
+.banner-paragraph{
+    font-size: 18px;
+    font-weight: 400px;
+    color: #757575 ;
+}
+.btn-banner{
+    margin-top: 30px;
+    margin-right: 30px;
+}
+.banner-img{
+    margin: left 35px; ;
+}
