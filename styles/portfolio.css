@@ -53,7 +53,7 @@ nav ul{
     font-size: 20px;
 }
 
-.dark-3{
+.dark-3,.skill-description,.resume-description{
     color: #757575;
 }
 
@@ -151,10 +151,82 @@ main section{
 .skills-container{
     display: flex;
     gap: 24px;
+    margin-top: 50px;
 }
 .skill-names{
     border-radius: 5px;
     padding: 30px ;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06) ;
 }
+.skill-name{
+    font-weight: bold;
+    font-size: 20px;
+}
 
+.class-container{
+    display: flex;
+    gap: 24px;
+}
+
+.column-name{
+    font-weight: bold;
+    font-size: 30px;
+}
+.edu-subTitle{
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.uni-name{
+    font-weight:700;
+    font-size: 20px;
+    color: rgba(117, 117, 117, 1);
+}
+.resume-title{
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 113px;
+}
+
+footer{
+    display: flex;
+    gap: 100px;
+    padding: 130px 230px;
+}
+
+.footer-column{
+    width: 50%;
+}
+
+footer input[type="text"],footer input[type="email"]{
+    display: block;
+    height: 64px;
+    border-radius: 5px;
+    margin-bottom: 24px;
+    width: 461px;
+    border: none;
+    padding: 18px 349px 18px 30px;
+
+
+}
+
+.submit-btn{
+    margin-top: 24px;
+}
+
+/* footer textarea */
+footer textarea{
+    width: 461px;
+    height: 180px;
+    border-radius: 5px;
+    border: none;
+    padding: 18px 365px 134px 30px;
+}
+
+.footer-des{
+    font-weight: 400;
+    font-size: 16px;
+    color: #474747;
+
+}
